@@ -2,7 +2,7 @@
 FROM jlesage/baseimage-gui:debian-10
 
 # Define arguments
-ARG JOPLIN_VERSION=2.1.8
+ARG JOPLIN_VERSION=2.5.12
 ARG JOPLIN_URL=https://github.com/laurent22/joplin/releases/download/v${JOPLIN_VERSION}/Joplin-${JOPLIN_VERSION}.AppImage
 ARG APP_ICON_URL=https://joplinapp.org/images/Icon512.png
 
